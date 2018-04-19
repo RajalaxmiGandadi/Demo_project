@@ -1,0 +1,20 @@
+{
+  "analytics_stat": {
+    "dynamic" : false,
+    "properties": {
+      "organisation": {"type": "string",  "index": "not_analyzed" },
+      "id": {"type": "string",  "index": "not_analyzed" },
+      "timestamp": {"type": "date"},
+      "floorName": {"type": "string",  "index": "not_analyzed" },
+      "floorId": {"type": "string",  "index": "not_analyzed" },
+      "premiseName": {"type": "string",  "index": "not_analyzed" },
+      "premiseId": {"type": "string",  "index": "not_analyzed" },
+      "state": {"type": "long",  "index": "not_analyzed" },
+      "type": {"type": "string",  "index": "not_analyzed" },
+      "fixedworkplaces": {"type": "long",  "index": "not_analyzed" },
+      "defaultworkspaces": {"type": "long",  "index": "not_analyzed" },
+      "defaultmeetingrooms": {"type": "long",  "index": "not_analyzed" },
+      "defaultmeetingadocrooms": {"type": "long",  "index": "not_analyzed" }
+    }
+  }
+}
